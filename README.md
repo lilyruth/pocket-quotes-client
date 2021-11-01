@@ -12,7 +12,7 @@ Favorite quotes can be added to a user's account and this is managed through Mon
 
 I do think I want to release a version of this but I think for actual deployment perhaps using Redux Toolkit and local storage will make more sense than using Mongo since it's a small-scale project. This is something I have to continue to research. 
 
-I would like to express my appreciation for To The Point Code, Net Ninja and Codedamn YouTube channels. These all helped a great deal in areas where I was struggling, which, let's be honest, was around 80% of the time. The times I wasn't struggling was because I was playing with colors or fonts. Those are a LOT of fun. Final shout-out goes to those who wrote all the fabulous documentation. My goal is to someday be amazing enough to write documentation like that. 
+I would like to express my appreciation for To The Point Code, Net Ninja and Codedamn YouTube channels. These all helped a great deal in areas where I was struggling, which, let's be honest, was around 80% of the time. The times I wasn't struggling was because I was playing with colors or fonts. Those are a LOT of fun. Final shout-out goes to those who wrote all the fabulous documentation (React, React Native, React Native Elements, MONGOOSE OMG Y'ALL ARE AMAZING, Formik, BCryptJS, Redux Toolkit, I know there is more...). My goal is to someday be amazing enough to write documentation like that. 
 
 I'll practice by writing rambling READMEs after an intense week of project cramming. 
 
