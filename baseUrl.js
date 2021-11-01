@@ -1,3 +1,3 @@
-const baseUrl = 'https://pocket-quotes.herokuapp.com/'
 
+const baseUrl = 'https://pocket-quotes.herokuapp.com/'
 export default baseUrl
