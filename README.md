@@ -2,6 +2,7 @@
 
 ## Update: Live on Heroku & Expo 
 (https://expo.io/@lilyruth/pocketquotes)
+=> If you want to log in without creating an account, use testemail@gmail.com and 123456 . Please note I do not own the testemail address.
 
 This React Native project retrieves quotes from the quotable.io API. I am very grateful for this service. I also want to apologize for the one time I did the API call without useEffect just to see what would happen and for 5 seconds your server got spammed. Thank you for not IP banning me. I promise I caught it as quickly as I could. It was also a very memorable demonstration as to why useEffect is needed.
 
