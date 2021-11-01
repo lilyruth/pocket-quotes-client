@@ -1,21 +1,32 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import store from './redux/store';
+import { Provider } from 'react-redux';
 import { StyleSheet, Text, View } from 'react-native';
+import MainComponent from './components/MainComponent';
+import { useFonts, LovedbytheKing_400Regular } from '@expo-google-fonts/loved-by-the-king';
+import {
+  BalsamiqSans_400Regular
+ } from '@expo-google-fonts/balsamiq-sans';
+import { LogBox } from 'react-native';
+import AppLoading from 'expo-app-loading';
 
-export default function App() {
+LogBox.ignoreAllLogs()
+
+export default function App(props) {
+
+  let [fontsLoaded] = useFonts({
+    LovedbytheKing_400Regular, BalsamiqSans_400Regular
+  });
+
+   if (!fontsLoaded) {
+     return <AppLoading />;
+   } else {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+    <MainComponent />
+    </Provider>
   );
-}
+  }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+}
