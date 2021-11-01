@@ -1,5 +1,8 @@
 # Pocket Quotes!!
 
+## Update: Live on Heroku & Expo 
+(https://expo.io/@lilyruth/pocketquotes)
+
 This React Native project retrieves quotes from the quotable.io API. I am very grateful for this service. I also want to apologize for the one time I did the API call without useEffect just to see what would happen and for 5 seconds your server got spammed. Thank you for not IP banning me. I promise I caught it as quickly as I could. It was also a very memorable demonstration as to why useEffect is needed.
 
 I have not yet added token authentication to the project. There is hashing and salting in the backend for registration and login, so no actual passwords are stored anywhere. 
